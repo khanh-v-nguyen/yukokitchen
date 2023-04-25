@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yuko Kitchen</title>
+  <link rel="icon" type="image/png" href="images/yklogo.png">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<section class="sub-header">
+  <nav>
+    <a href = "index.html"><img src="images/yklogo.png" width="200" height=auto></a>
+    <div class="nav-links" id="navLinks">
+      <i class="fa fa-times" onclick="hideMenu()"></i>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+  </nav>
+
+  <div class="text-box">
+    <h1>Menu</h1>
+  </div>
+</section>
+
+<!-- call to action-->
+<section class="popular-items">
+
+  <h1>Place an Order With Postmates!</h1>
+  <p>View some of our items here!</p>
+
+  <a href="https://postmates.com/store/yuko-kitchen-dtla/aMCa--FUS2SuKbo2vH1jdw" target="_blank" class="hero-btn">Place Order</a>
+
+</section>
+
+
+<section>
+  <div class="gallery">
+
+    <h1>Sushi &#183; Rice Bowls &#183; Salad &#183; Udon</h1>
+    <img src="images/vines2.png" class = "vines-border">
+
+    <br>
+    <img src ="food-images/udon5.jpg">
+    <img src ="food-images/udon2.jpg">
+    <img src ="food-images/udon3.jpg">
+  </div>
+</section>
+
+<section>
+  <div class="gallery">
+    <h1>Cakes &#183; Cookies &#183; Cupcakes</h1>
+    <img src="images/vines2.png" class = "vines-border">
+
+    <br>
+    <img src ="dessert-images/dessert1.jpg">
+    <img src ="dessert-images/dessert2.jpg">
+    <img src ="dessert-images/dessert3.jpg">
+
+  
+  </div>
+</section>
+
+
+<section>
+  <div class="gallery">
+    <h1>Tea &#183; Boba &#183; Coffee</h1>
+    <img src="images/vines2.png" class = "vines-border">
+
+    <br>
+    <img src ="drinks-images/drinks5.jpg">
+    <img src ="drinks-images/drinks4.jpg">
+    <img src ="drinks-images/drinks3.jpg">
+  
+  </div>
+</section>
+
+
+<!-- footer -->
+<section class="footer">
+  <h4>Connect with Us</h4>
+  <p>Follow us on our social media!</p>
+  <div class="icons">
+    <a href = "https://www.instagram.com/yukokitchen/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>
+    <a href = "https://www.yelp.com/biz/yuko-kitchen-dtla-los-angeles-3" target="_blank"> <i class="fa fa-yelp"></i></a>
+
+  </div> 
+  <p>Made by Khanh Nguyen</p>
+  <p>Note: This is an unofficial page for Yuko Kitchen.</p>
+
+</section>
+
+
+<!-- script-->
+
+<script>
+  var navLinks = document.getElementById("navLinks")
+
+
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+</script>
+</body>
+</html>
+
+
+
+

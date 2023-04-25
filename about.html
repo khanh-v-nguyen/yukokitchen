@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yuko Kitchen</title>
+  <link rel="icon" type="image/png" href="images/yklogo.png">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<section class="sub-header">
+  <nav>
+    <a href = "index.html"><img src="images/yklogo.png" width="200" height=auto></a>
+    <div class="nav-links" id="navLinks">
+      <i class="fa fa-times" onclick="hideMenu()"></i>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+  </nav>
+
+<div class="text-box">
+  <h1>About Us</h1>
+</div>
+</section>
+
+<!-- food we offer-->
+<section class = "about-us">
+  <div class="row">
+    <div class = "about-us-col">
+      <h1>About the Owner</h1>
+
+      <p>
+        Yuko Watanabe is the founder of Yuko Kitchen. Aspiring to become a pastry chef after years of training in Japan, Yuko came to America where she worked as sushi chef before opening Yuko Kitchen in a small Hollywood apartment many years later. She notes that her journey as a chef and opening the restaurant are part of her experience with the American dream as she faced many struggles in her early years in the country and as a female chef.
+
+        <br>
+        <br>
+        When not busy with the restaurant, Yuko enjoys expressing her creativity through various crafts and taking care of her dog.
+
+        As for the establishment itself, Yuko has filled her restaurant, which was once an old dance studio, with beautiful flora that makes the restaurant a sight to see within the city. Something else that makes the place so unique is its extensive and carefully-curated menu. Noting that people may want something sweet after their meal, Yuko has worked on developing recipes for unique cookies and cakes which offer a refreshing taste to a filling meal. Creativity has no limits to Yuko, which can be seen all throughout her establishment.
+    
+      </p>
+    </div>
+  
+    <div class="about-us-col">
+      <img src="images/yukoPic.jpg">
+    </div>
+
+  </div>
+</section>
+
+<!-- footer -->
+<section class="footer">
+  <h4>Connect with Us</h4>
+  <p>Follow us on our social media!</p>
+  <div class="icons">
+    <a href = "https://www.instagram.com/yukokitchen/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>
+    <a href = "https://www.yelp.com/biz/yuko-kitchen-dtla-los-angeles-3" target="_blank"> <i class="fa fa-yelp"></i></a>
+
+  </div> 
+  <p>Made by Khanh Nguyen</p>
+  <p>Note: This is an unofficial page for Yuko Kitchen.</p>
+
+</section>
+
+
+<!-- script-->
+
+<script>
+  var navLinks = document.getElementById("navLinks")
+
+
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+</script>
+</body>
+</html>
